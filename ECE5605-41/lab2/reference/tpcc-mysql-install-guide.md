@@ -175,6 +175,14 @@ $ ./bin/mysqladmin -uroot -pyourPassword shutdown
 
 ## How to install tpcc-mysql
 
+### Prerequisite
+
+- libmysqlclient-dev
+
+```bash
+$ sudo apt-get install libmysqlclient-dev
+```
+
 ### Installation
 
 1. Clone *tpcc-mysql* from the [Percona GitHub repository](https://github.com/Percona-Lab/tpcc-mysql):
